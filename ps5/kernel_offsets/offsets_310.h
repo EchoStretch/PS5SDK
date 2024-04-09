@@ -3,8 +3,8 @@
  * Contains offsets for 3.10.
  ****************************************************/
 
-#ifndef PS5SDK_KERNEL_OFFSETS_300_H
-#define PS5SDK_KERNEL_OFFSETS_300_H
+#ifndef PS5SDK_KERNEL_OFFSETS_310_H
+#define PS5SDK_KERNEL_OFFSETS_310_H
 
 // Proc field offsets
 #define OFFSET_KERNEL_PROC_P_UCRED          0x40
@@ -20,4 +20,4 @@
 // Offsets from kernel .data base
 #define OFFSET_KERNEL_DATA_BASE_ALLPROC     0x276DC58
 
-#endif // PS5SDK_KERNEL_OFFSETS_300_H
+#endif // PS5SDK_KERNEL_OFFSETS_310_H
