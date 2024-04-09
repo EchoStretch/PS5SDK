@@ -14,10 +14,14 @@
 // Firmware includes
 #if PS5_FW_VERSION == 0x300
 #include <ps5/kernel_offsets/offsets_300.h>
+#elif PS5_FW_VERSION == 0x310
+#include <ps5/kernel_offsets/offsets_310.h>
 #elif PS5_FW_VERSION == 0x320
 #include <ps5/kernel_offsets/offsets_320.h>
 #elif PS5_FW_VERSION == 0x321
 #include <ps5/kernel_offsets/offsets_321.h>
+#elif PS5_FW_VERSION == 0x400
+#include <ps5/kernel_offsets/offsets_400.h>
 #elif PS5_FW_VERSION == 0x402
 #include <ps5/kernel_offsets/offsets_402.h>
 #elif PS5_FW_VERSION == 0x403
